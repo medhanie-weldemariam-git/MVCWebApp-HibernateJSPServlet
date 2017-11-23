@@ -1,0 +1,51 @@
+/*
+Document : style
+Created on : Nov 22, 2017
+Place : Toronto, ON
+Author	 : Medhanie Weldemariam
+Description:
+*/
+
+root {
+	display: block;
+}
+
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial,
+		Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+p, h1, form, button {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+h3 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial,
+		Helvetica, sans-serif;
+	font-size: 22pt;
+	font-style: normal;
+	font-weight: bold;
+	color: SlateBlue;
+	text-align: center;
+	text-decoration: underline
+}
+
+table {
+	font-family: Lucida Grande;
+	color: white;
+	font-size: 11pt;
+	font-style: normal;
+	width: 50%;
+	text-align:;
+	background: url(../images/backimg.jpg) no-repeat left top;
+	border-collapse: collapse;
+	border: 2px solid navy
+}
+
+table.inner {
+	border: 0px
+}
